@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Pessoal</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+            padding: 20px;
+        }
+
+        /* Estilização do cabeçalho */
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Estilização das seções */
+        section {
+            margin-bottom: 20px;
+            padding: 20px;
+            background: #e0e0e0; 
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px; 
+        }
+
+        /* Centraliza os títulos das seções */
+        h2 {
+            text-align: center; 
+            margin-bottom: 20px;
+        }
+
+        /* Estilização do formulário */
+        form {
+            width: 33.33%; /* O formulário ocupa 1/3 da largura da tela */
+            max-width: 400px; /* Limita a largura máxima do formulário */
+            margin-left: 0; /* Alinhado à esquerda */
+        }
+
+        form label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        form textarea {
+            height: 150px; 
+        }
+
+        form button {
+            background: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background: #555;
+        }
+
+        /* Estilização da imagem, alinhado-a à esquerda do texto */
+        .sobre-img {
+            float: left; 
+            width: 12.5%; 
+            margin-right: 20px; 
+        }
+
+        /* Limpa flutuações */
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .topo {
+            text-align: center;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header id="topo">
+        <h1>Rafael Aparecido de Sousa</h1> 
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#portfolio">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre" class="clearfix">
+        <h2>Sobre Mim</h2>
+        <img src="rafael.png" alt="Imagem de Rafael" class="sobre-img">
+
+        <h3>Pessoal</h3>
+        <p>Meu nome é Rafael Aparecido de Sousa, brasileiro. Resido na cidade de Guaxupé, onde nasci, no sul de Minas Gerais, cidade esta que se situa na divisa com o estado de São Paulo. Tenho 37 anos, casado há 14, mas ainda não tenho filhos.</p>
+    </br>
+        <h3>Profissional</h3>
+        <p>Trabalho há 12 anos em uma assistência técnica em informática em geral. Onde prestamos serviços de montagem, manutenção e configuração de computadores, notebooks, impressoras e relacionados. Também oferecemos suporte de infraestrutura e segurança para diversas empresas da região. Também trabalhei em um curso Técnico em Informática, em uma escola de minha cidade, onde atuei como professor na disciplina de "Fundamentos de Hardware e Software", além de atuar na coordenação de estágio.</p>
+    </br>
+        <h3>Hobbies</h3>
+        <p>Sou um consumidor de cultura pop em geral, principalmente a japonesa, como animes, mangás e etc. Também gosto muito de videogames, principalmente de games retrô, ou que possuam essa estética. Também gosto muito de música e já arrisquei alguns acordes, quando mais jovem!</p>
+    </br>
+        <div class="topo">
+            <a href="#topo">Voltar</a>
+        </div>
+    </section>
+
+    <section id="formacao">
+    </br>
+        <ul>Formação</ul>
+    </br>
+        <li>Atualmente cursando Análise e Desenvolvimento de Sistemas no Centro Universitário Internacional (UNINTER).</li>
+    </br>
+        <li>Cocluí o Ensino médio em 2005.</li>
+    </br>
+        <li>Sou formado em Técnico Em Redes de Computadores, pelo SENAC-MG. Concluindo o curso em 2012.</li>
+    </br>
+        <li>Também possuo formação em Técnico em Contabilidade, pela Fundação Educacional José Gonela, porém nunca atuei na área contábil.</li>
+    </br>
+        <li>Além disso, participei de cursos profissionalizantes na área de informática em diversos momentos de minha carreira.</li>
+    </br>
+        <li>Meu nível de inglês é de intermediário. Leio bem, escrevo bem, ouço bem, mas falo pouco.</li>
+    </br>
+        <div class="topo">
+            <a href="#topo">Voltar</a>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfólio e Projetos</h2>
+        <p>No momento, ainda não possuo nenhum grande projeto ou artigo publicado, mas se puder elencar alguns:</p>
+    </br>
+        <ul>
+            <li>
+                <strong>Curso Profissionalizante</strong>:</br> Iniciado a partir de minha atividade extensionista no curso de Análise e Desenvolvimento de Sistemas, estou elaborando um Curso Profissionalizante em Montagem e Manutenção de Computadores para adolescentes de família de baixa renda, atendidos por um programa de Jovem Aprendiz, da prefeitura de minha cidade. Curso este a ter início ainda este ano.
+                
+                <br><br> 
+            </li>
+            <li>
+                <strong>Um Blog, como Hobby</strong>: </br>Possuo também um blog, que utilizo como um hobby, onde escrevo sobre as séries japonesas que acompanho. Neste blog, inclusive, já tive um podcast que tratava sobre o mesmo assunto. Atualmente, devido a outros compromisso, as atividades no blog estão paralizadas.
+                <br><a href="https://divisaotokusatsu.blogspot.com/" target="_blank">Blog Divisão Tokusatsu</a>
+                <br><br> 
+            </li>
+            
+        </ul>
+        <div class="topo">
+            <a href="#topo">Voltar</a>
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Caso queira entrar em contato, deixando uma mensagem, sinta-se à vontade!</p>
+    </br>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="telefone">Telefone (Opcional):</label>
+            <input type="tel" id="telefone" name="telefone">
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+        <div class="topo">
+            <a href="#topo">Voltar ao Topo</a>
+        </div>
+    </section>
+</body>
+</html>
